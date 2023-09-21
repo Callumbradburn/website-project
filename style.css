@@ -5,7 +5,7 @@ body{
     background-color: #f4f5dc; 
 }
 #navbar{
-    border-color: #333338(240, 5%, 15%);
+    border-color: #333338(240, 5%, 15%) so;
     border-style: solid;
     height: 75px;
     display: flex;
@@ -25,6 +25,8 @@ body{
 img {
     width: 35%;
     align-items: center;
+    /* border: #333338 2px solid; */
+    border-radius: 20px;
 }
 
 h1{
@@ -62,6 +64,7 @@ h2{
 
 .foodmenu{
     border: #333338 5px solid;
+    border-radius: 20px;
     width: 30%;
     margin-top: 100px;
     margin-bottom: 200px;
@@ -75,6 +78,7 @@ h2{
 
 .drinksmenu{
     border: #333338 5px solid;
+    border-radius: 20px;
     width: 30%;
     margin-top: 100px;
     margin-bottom: 200px;
@@ -82,11 +86,11 @@ h2{
 }
 
 
-
-
-
-
-
+table{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
 
 
 #footerbar{
@@ -132,5 +136,7 @@ h2{
     .foodmenu{
         margin-top: 50px;
         margin-bottom: 50px;
+        min-width: 320px;
+
     }
 }
